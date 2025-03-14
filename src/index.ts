@@ -1,2 +1,1 @@
-import { readdirSync } from "fs";
-console.log(readdirSync("./"));
+console.log( "Hello, World!" )

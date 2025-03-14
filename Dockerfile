@@ -1,4 +1,4 @@
-FROM node:21.5.0-alpine
+FROM node:22.13.1-alpine
 
 ENV NODE_ENV=development
 
@@ -14,7 +14,7 @@ RUN pnpm build
 
 RUN pnpm prune --prod
 
-FROM node:21.5.0-alpine
+FROM node:22.13.1-alpine
 
 ENV NODE_ENV=production
 
